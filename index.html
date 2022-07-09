@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Intro section with dropdown navigation</title>
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="./images/logo.svg" alt="" class="logo" />
+
+			<div class="hamburger">
+				<div class="hamburger_toggle"></div>
+			</div>
+
+			<nav class="nav-menu">
+				<ul class="nav-menu-list">
+					<li class="nav-list-item dropdown">
+						<a href="#" class="menu-link"
+							>Features
+							<img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"
+						/></a>
+						<ul class="sub-menu">
+							<li class="nav-link">
+								<span class="icon">
+									<img src="./images/icon-todo.svg" alt="todoIcon" /> </span
+								>Todo List
+							</li>
+							<li class="nav-link">
+								<span class="icon"
+									><img src="./images/icon-calendar.svg" alt="todoIcon" /></span
+								>Calender
+							</li>
+							<li class="nav-link">
+								<span class="icon"
+									><img
+										src="./images/icon-reminders.svg"
+										alt="todoIcon" /></span
+								>Reminders
+							</li>
+							<li class="nav-link">
+								<span class="icon"
+									><img src="./images/icon-planning.svg" alt="todoIcon" /></span
+								>Planning
+							</li>
+						</ul>
+					</li>
+					<li class="nav-list-item dropdown two">
+						<a href="#" class="menu-link"
+							>Company
+							<img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"
+						/></a>
+						<ul class="sub-menu">
+							<li class="nav-link">History</li>
+							<li class="nav-link">Our Team</li>
+							<li class="nav-link">Blog</li>
+						</ul>
+					</li>
+					<li class="nav-list-item">
+						<a href="#" class="menu-link">Careers</a>
+					</li>
+					<li class="nav-list-item"><a href="#" class="menu-link">About</a></li>
+				</ul>
+
+				<div class="btn-container">
+					<a class="login-btn">Login</a>
+					<button class="register-btn">Register</button>
+				</div>
+			</nav>
+		</header>
+
+		<div class="details-container">
+			<div class="leftside">
+				<h1>Make remote work</h1>
+				<p>
+					Get your team in sync, no matter your location. Streamline processes,
+					create team rituals, and watch productivity soar.
+				</p>
+				<button>Learn more</button>
+
+				<div class="client-images">
+					<img src="./images/client-databiz.svg" alt="client-databiz" />
+					<img src="./images/client-audiophile.svg" alt="" />
+					<img src="./images/client-meet.svg" alt="" />
+					<img src="./images/client-maker.svg" alt="client-maker" />
+				</div>
+			</div>
+
+			<div class="rightside">
+				<div class="image-container">
+					<img
+						class="desktop-img"
+						src="./images/image-hero-desktop.png"
+						alt=""
+					/>
+					<img class="mobile-img" src="./images/image-hero-mobile.png" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Your Name Here</a>.
+		</div>
+
+		<script src="./js/script.js"></script>
+	</body>
+</html>
